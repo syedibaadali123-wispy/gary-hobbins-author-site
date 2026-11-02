@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Gary J. Hobbins</title>
+  <meta name="description" content="Contact author Gary J. Hobbins for reader messages, interviews, speaking engagements and school inquiries.">
+  <meta name="author" content="Gary J. Hobbins">
+  <meta name="theme-color" content="#faf7f2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact | Gary J. Hobbins">
+  <meta property="og:description" content="Contact author Gary J. Hobbins for reader messages, interviews, speaking engagements and school inquiries.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/book-cover-800.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Gary J. Hobbins, home">
+        <strong>Gary J. Hobbins</strong>
+        <span>Author</span>
+      </a>
+      <nav aria-label="Main">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+          <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+          <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <a class="buy-tab" href="https://www.amazon.com/ebook/dp/B0HKQ6V7LP/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg>Buy the Book</a>
+
+  <main id="main">
+
+    <section class="page-head">
+      <div class="wrap">
+        <p class="crumbs"><a href="index.html">Home</a><span>/</span>Contact</p>
+        <span class="label">Contact</span>
+        <h1>Get in touch</h1>
+        <p class="lead">Share how the book touched you, invite Gary to speak, or ask about the Lesson Plan Directive for your school.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split split--top">
+        <div>
+          <span class="label">Write to Gary</span>
+          <h2>Honesty connects us.</h2>
+          <p>Every message is read. Whether you are a reader, a member of the media, or an educator, we would love to hear from you.</p>
+          <ul class="contact-list">
+            <li><strong>Readers</strong>Share how the book touched you.</li>
+            <li><strong>Media and speaking</strong>Interviews, podcasts and events.</li>
+            <li><strong>Schools</strong>The Lesson Plan Directive for Home and School.</li>
+          </ul>
+          <a class="mini-book" href="https://www.amazon.com/ebook/dp/B0HKQ6V7LP/" target="_blank" rel="noopener">
+            <img src="assets/img/book-cover-800.jpg" width="800" height="1200" alt="Cover of The Mind's New Liberation" loading="lazy" decoding="async">
+            <span><small>Volume I &middot; The Vow of Honesty</small>The Mind&rsquo;s New Liberation<em>Buy on Amazon &rarr;</em></span>
+          </a>
+        </div>
+
+        <!-- To receive messages: replace YOUR_FORM_ID with a Formspree form ID,
+             or set data-mailto to the author's email address. See README.md. -->
+        <form class="form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-mailto="" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field field--full">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+              <option value="" selected disabled>Choose a topic</option>
+              <option>Reader message</option>
+              <option>Interview or podcast</option>
+              <option>Speaking engagement</option>
+              <option>School / Lesson Plan Directive</option>
+              <option>Something else</option>
+            </select>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field field--full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="hp" aria-hidden="true">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="form-status" id="formStatus" role="status" tabindex="-1"></div>
+          <div class="form-foot">
+            <p class="form-note">Your details are only used to reply to you.</p>
+            <button class="btn" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="wrap split split--top">
+        <div>
+          <span class="label">Questions</span>
+          <h2>Frequently asked.</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Is this a religious book?</summary>
+            <p>No. This is not a religious book. Jesus is not discussed as God. Gary explains that the axioms of Jesus resemble Zen Buddhist koans and carry the spirit of enlightenment.</p>
+          </details>
+          <details>
+            <summary>Who is the book for?</summary>
+            <p>It is for everyone &mdash; a profound story of our potential for personal merging into the clarity of interpersonal psychology.</p>
+          </details>
+          <details>
+            <summary>Where can I buy the book?</summary>
+            <p>The Mind&rsquo;s New Liberation is available on <a class="link" href="https://www.amazon.com/ebook/dp/B0HKQ6V7LP/" target="_blank" rel="noopener">Amazon</a>. You can also use the &ldquo;Buy the Book&rdquo; button on any page.</p>
+          </details>
+          <details>
+            <summary>Can schools use the Lesson Plan Directive?</summary>
+            <p>Yes. The book contains a Lesson Plan Directive for Home and School dealing with the early formation of honest consciences. Choose &ldquo;School / Lesson Plan Directive&rdquo; in the form to get in touch.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p class="f-brand">Gary J. Hobbins</p>
+          <p>Author of <em>The Mind&rsquo;s New Liberation</em>, Volume I: The Vow of Honesty. A timely revelation for awakening.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>The Book</h4>
+          <ul>
+            <li><a href="https://www.amazon.com/ebook/dp/B0HKQ6V7LP/" target="_blank" rel="noopener">Buy on Amazon</a></li>
+            <li><a href="books.html#trailer">Watch the trailer</a></li>
+            <li><a href="books.html#lesson-plan">Lesson Plan Directive</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Gary J. Hobbins. All rights reserved.</span>
+        <span>The Mind&rsquo;s New Liberation</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
